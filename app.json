@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Vmartz",
+    "slug": "vmartz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.varad.vmartz"
+    },
+    "android": {
+      "package": "com.varad.vmartz",
+      "adaptiveIcon": {
+        "backgroundColor": "#0E0E12",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a10550b5-9561-4264-adc0-0ffd3c0e7222"
+      }
+    }
+  }
+}
